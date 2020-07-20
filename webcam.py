@@ -8,3 +8,5 @@ while(result):
     cv2.imwrite("photo.jpg", frame)
     result = False
     print("Image Captured")
+
+imgCapture.release()
